@@ -1,7 +1,7 @@
 import { useFetch } from "../../hooks/useFetch";
 
 // components
-import RecipeList from "../components/RecipeList";
+import RecipeList from "../../components/RecipeList";
 
 // style
 import "./Home.css";
