@@ -48,6 +48,30 @@
       "method": "blah, blah, blah",
       "cookingTime": "25 minutes",
       "id": "ssoVwY5"
+    },
+    {
+      "title": "Chickpea Curry",
+      "ingredients": [
+        "chickpea",
+        "onions",
+        "rice",
+        "garlic"
+      ],
+      "method": "some describing",
+      "cookingTime": "40 minutes",
+      "id": "f4o-NBq"
+    },
+    {
+      "title": "Banana bread",
+      "ingredients": [
+        "salt",
+        "two egs",
+        "banana",
+        "flour"
+      ],
+      "method": "Some description",
+      "cookingTime": "110 minutes",
+      "id": "ebSLxnR"
     }
   ]
 }
