@@ -40,6 +40,7 @@ export default function Create() {
     setNewIngredient("");
     ingredientsInput.current.focus();
   };
+
   // rediderect the user when we get data response
   useEffect(() => {
     if (data) {

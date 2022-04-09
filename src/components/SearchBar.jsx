@@ -6,6 +6,7 @@ import "./SearchBar.css";
 
 export default function SearchBar() {
   const [term, setTerm] = useState("");
+
   const history = useHistory();
 
   const handleSubmit = e => {
@@ -21,9 +22,7 @@ export default function SearchBar() {
         <input
           type="text"
           id="search"
-          onChanche={e => {
-            setTerm(e.target.value);
-          }}
+          onChange={e => setTerm(e.target.value)}
           required
         />
       </form>
